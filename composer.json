@@ -1,5 +1,5 @@
 {
-    "name": "beberlei/composer-monorepo-plugin",
+    "name": "talentuno-official/composer-monorepo-plugin",
     "license": "MIT",
     "type": "composer-plugin",
     "require": {
