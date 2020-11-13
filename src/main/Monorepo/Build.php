@@ -136,7 +136,7 @@ class Build
             }
 
             if (!isset($packages[$dependencyName])) {
-                if ($dependencyName == $vendorDir . '/composer-plugin-api') {
+                if ($dependencyName == 'vendor/composer-plugin-api' || $dependencyName == 'vendor/composer-runtime-api') {
                     continue;
                 }
                 if($isVendor){
